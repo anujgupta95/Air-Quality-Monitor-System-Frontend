@@ -62,6 +62,7 @@ const LineChart = ({ dataPoints, labels }) => {
 
   return (
     <div className="line-chart-container">
+        <h3>Air Quality Forecast</h3>
       <Line data={data} options={options} />
     </div>
   );
